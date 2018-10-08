@@ -23,15 +23,28 @@
   </parent>
 
   <scm>
-    <connection>scm:git:git://github.com/opentable/otj-pg-embedded.git</connection>
-    <developerConnection>scm:git:git@github.com:opentable/otj-pg-embedded.git</developerConnection>
-    <url>http://github.com/opentable/otj-pg-embedded</url>
+    <connection>scm:git:git://github.com/Cosium/otj-pg-embedded.git</connection>
+    <developerConnection>scm:git:git@github.com:Cosium/otj-pg-embedded.git</developerConnection>
+    <url>http://github.com/Cosium/otj-pg-embedded</url>
     <tag>otj-pg-embedded-0.9.0</tag>
   </scm>
 
+  <distributionManagement>
+    <repository>
+      <id>cosium-repo</id>
+      <name>Internal Release Repository</name>
+      <url>https://repo.cosium.com/repository/internal/</url>
+    </repository>
+    <snapshotRepository>
+      <id>cosium-repo-snapshots</id>
+      <name>Internal Snapshot Repository</name>
+      <url>https://repo.cosium.com/repository/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <groupId>com.opentable.components</groupId>
   <artifactId>otj-pg-embedded</artifactId>
-  <version>0.9.0</version>
+  <version>0.9.0.0.cosium-SNAPSHOT</version>
   <description>Embedded PostgreSQL driver</description>
 
   <properties>
